@@ -121,4 +121,24 @@ $(document).ready(function() {
   $('.btn-sign-three').click(function() {
     window.location.href = 'finale.html';
   });
+
+  $('.venezuela').click(function() {
+    $('.select-country').attr('src', '../assets/images/venezuela.png');
+    $('.input-one').val('+58');
+  });
+
+  $('.mexico').click(function() {
+    $('.select-country').attr('src', '../assets/images/mexico.jpg');
+    $('.input-one').val('+52');
+  });
+
+  $('.us').click(function() {
+    $('.select-country').attr('src', '../assets/images/us.png');
+    $('.input-one').val('+1');
+  });
+
+  $('.peru').click(function() {
+    $('.select-country').attr('src', '../assets/images/peru.png');
+    $('.input-one').val('+51');
+  });
 });
