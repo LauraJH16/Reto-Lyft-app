@@ -10,6 +10,7 @@ input {
 
 #home {
 	display: none;
+	height: 100%;
 }
 
 #splash {
@@ -45,6 +46,10 @@ input {
 	background-repeat: no-repeat;
 	text-align: center;
 	margin: 0px auto;
+}
+
+#home .row {
+	margin-bottom: 0;
 }
 
 .buttons {
