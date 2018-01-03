@@ -124,12 +124,12 @@ $(document).ready(function() {
 
   $('.venezuela').click(function() {
     $('.select-country').attr('src', '../assets/images/venezuela.png');
-    $('.input-one').val('+58');
+    $('.input-one').text('+58');
   });
 
   $('.mexico').click(function() {
     $('.select-country').attr('src', '../assets/images/mexico.jpg');
-    $('.input-one').val('+52');
+    $('.input-one').text('+52');
   });
 
   $('.us').click(function() {
